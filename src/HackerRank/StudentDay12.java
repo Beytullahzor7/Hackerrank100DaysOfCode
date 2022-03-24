@@ -2,7 +2,7 @@ package HackerRank;
 
 import java.util.Scanner;
 
-public class Solution {
+public class StudentDay12 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String firstName = scan.next();
@@ -20,7 +20,7 @@ public class Solution {
         System.out.println("Grade: " + s.calculate() );
     }
 
-    class Person{
+    static class Person{
         protected String firstName;
         protected String lastName;
         protected int identification;
@@ -36,7 +36,7 @@ public class Solution {
         }
     }
 
-    class Student extends Person{
+    static class Student extends Person{
         private int[] testScores;
 
         public Student(String firstName, String lastName, int identification, int[] testScores){

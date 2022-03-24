@@ -14,7 +14,7 @@ public class SolutionDay13 {
         myBook.display();
     }
 
-    abstract class Book {
+    static abstract class Book {
         private String title;
         private String author;
 
@@ -42,7 +42,7 @@ public class SolutionDay13 {
         abstract void display();
     }
 
-    class MyBook extends Book {
+    static class MyBook extends Book {
         private int price;
 
         public MyBook(String title, String author, int price) {
