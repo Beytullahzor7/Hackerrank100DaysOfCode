@@ -28,15 +28,13 @@ public class SolutionDay24 {
     }
 
     public static Node removeDuplicates(Node head) {
-        Set<Integer> set = new HashSet<>();
         if(head == null) return head;
 
         Node current = head;
         while (current.next != null){
-            if(set.contains(current.next.data)){
+            if(current.data == current.next.data){
                 current.next = current.next.next;
             }else{
-                set.add(current.next.data);
                 current = current.next;
             }
         }
