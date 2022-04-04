@@ -1,9 +1,6 @@
 package HackerRank;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class HotelUsersID {
@@ -27,7 +24,8 @@ public class HotelUsersID {
          2) Each array may contain duplicate hotel IDs */
 
         int[][] hotelIds = {{2,3,1}, {2,3,5}, {2,7,3,1}};
-        System.out.println(findCommonHotelUsersId(hotelIds));
+        //System.out.println(findCommonHotelUsersId(hotelIds));
+        System.out.println(findCommonHotelUsersIdSecondSolution(hotelIds));
 
     }
 
@@ -52,5 +50,23 @@ public class HotelUsersID {
             }
         }
         return ref;
+    }
+
+    public static List<Integer> findCommonHotelUsersIdSecondSolution(int[][] input){
+        List<Set<Integer>> inputList = Arrays.stream(input)
+                .map(x -> Arrays.stream(x).boxed().collect(Collectors.toSet()))
+                .collect(Collectors.toList());
+
+        Map<Integer,Long> counters = inputList.stream()
+                .flatMap(Collection::stream)
+                .collect(Collectors.groupingBy(i -> i, Collectors.counting()));
+
+        List<Integer> a = counters.entrySet()
+                .stream()
+                .filter(x -> x.getValue() >= input.length)
+                .map(Map.Entry::getKey)
+                .collect(Collectors.toList());
+
+        return a;
     }
 }
