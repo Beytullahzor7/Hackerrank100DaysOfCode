@@ -31,3 +31,19 @@
 + Day27: Testing
 + Day28: Regex,Patterns
 + Day29: Bitwise And
++ Day30: Reverse String 1-2-3
++ Day31: Reverse String 4
++ Day32: Recursive Factorial
++ Day33: Diagonal Difference
++ Day34: LeetCode TwoSum
++ Day35: LeetCode LongestSubstringWithoutRepeatingCharacters
++ Day36: LeetCode Sqrt
++ Day37: LeetCode Valid Perfect Square
++ Day38: LeetCode Sum of Square Numbers
++ Day39: Split String
++ Day40: Longest Word With Regex
++ Day41: Alphabetical Order
++ Day42: Number Reverse
++ Day43: Alphabet Searching
++ Day44: Palindrome String
++ Day45: Check Number
