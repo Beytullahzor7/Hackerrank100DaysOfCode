@@ -1,6 +1,6 @@
-***HackerRank30DaysOfCode***
+***HackerRank60DaysOfCode***
 
-30 Days Of Code HackerRank Java
+60 Days Of Code HackerRank Java
 
 + Day1: Data Types
 + Day2: Operators
@@ -48,3 +48,8 @@
 + Day44: Palindrome String
 + Day45: Check Number
 + Day46: Time Conversion
++ Day47: Plus Minus
++ Day48: MinMaxSum
++ Day49: AddNumber
++ Day50: FindMedianOfArray
++ Day51: FindMedianOfList
