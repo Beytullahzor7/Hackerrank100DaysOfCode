@@ -58,3 +58,5 @@
 + Day54: Anagram
 + Day55: AB Check
 + Day56: ArithmeticOrGeometric
++ Day57: Array Addition
++ Day58: Word Count
