@@ -1,4 +1,4 @@
-***HackerRank60DaysOfCode***
+***HackerRank100DaysOfCode***
 
 100 Days Of Code HackerRank Java
 
