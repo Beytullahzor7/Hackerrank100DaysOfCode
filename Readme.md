@@ -1,6 +1,6 @@
 ***HackerRank60DaysOfCode***
 
-60 Days Of Code HackerRank Java
+100 Days Of Code HackerRank Java
 
 + Day1: Data Types
 + Day2: Operators
