@@ -22,7 +22,6 @@ public class RepeatedString {
     }
 
     public static long repeatedString(String s, long n) { // aba 10
-        StringBuilder repeated = new StringBuilder();
 
         if(!s.contains("a")) return 0;
         if(s.length() == 1) return n;
