@@ -67,3 +67,4 @@
 + Day63: Vowel Count
 + Day64: Sum Multiplier
 + Day65: Time Convert
++ Day66: Simple Array Sum HackerRank
