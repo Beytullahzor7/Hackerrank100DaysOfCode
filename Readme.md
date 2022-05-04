@@ -66,3 +66,4 @@
 + Day62: Palindrome More Words
 + Day63: Vowel Count
 + Day64: Sum Multiplier
++ Day65: Time Convert
