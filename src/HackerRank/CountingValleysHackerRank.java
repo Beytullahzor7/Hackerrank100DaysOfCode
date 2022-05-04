@@ -40,10 +40,10 @@ public class CountingValleysHackerRank {
                     seaLevel--;
                 }
                 if(!temp.equals('U') && seaLevel == -1){
-                    seaLevel++;
+                    result++;
                 }
             }
-            return seaLevel;
+            return result;
         }
     }
 }
