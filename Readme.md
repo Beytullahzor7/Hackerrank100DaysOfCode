@@ -73,3 +73,4 @@
 + Day69: Two Strings HackerRank
 + Day70: RansomNote
 + Day71: FlippingMatrix
++ Day72: LetterCount
