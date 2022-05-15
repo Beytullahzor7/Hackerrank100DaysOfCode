@@ -76,3 +76,4 @@
 + Day72: LetterCount
 + Day73: LetterCapitalize
 + Day74: SecondGreatLow
++ Day75: FindLastIndexOfAnArray
