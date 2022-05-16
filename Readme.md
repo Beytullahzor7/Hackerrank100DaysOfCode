@@ -77,3 +77,4 @@
 + Day73: LetterCapitalize
 + Day74: SecondGreatLow
 + Day75: FindLastIndexOfAnArray
++ Day76: SimpleSymbols
