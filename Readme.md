@@ -78,3 +78,4 @@
 + Day74: SecondGreatLow
 + Day75: FindLastIndexOfAnArray
 + Day76: SimpleSymbols
++ Day77: LetterChanges
