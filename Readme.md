@@ -79,3 +79,4 @@
 + Day75: FindLastIndexOfAnArray
 + Day76: SimpleSymbols
 + Day77: LetterChanges
++ Day78: FindXandO
