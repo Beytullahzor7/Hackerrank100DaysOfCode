@@ -80,3 +80,4 @@
 + Day76: SimpleSymbols
 + Day77: LetterChanges
 + Day78: FindXandO
++ Day79: JavaOutputFormatting
